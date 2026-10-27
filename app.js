@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const translations = {
-    skip: 'Saltar al contenido', navResearch: 'Investigación', navProjects: 'Ejercicios', navBackground: 'Trayectoria', navContact: 'Contacto',
+    skip: 'Saltar al contenido', navResearch: 'Investigación', navTeaching: 'Docencia', navProjects: 'Ejercicios', navBackground: 'Trayectoria', navContact: 'Contacto',
     heroLabel: 'INVESTIGACIÓN EN FINANZAS · UNIVERSIDAD DE ALICANTE', heroRole: 'Investigador predoctoral en Finanzas',
     heroIntro: 'Soy doctorando en valoración de activos en la Universidad de Alicante. Mis intereses de investigación se centran en la valoración de activos y la predicción de rentabilidades bursátiles.',
     heroSecondary: 'Soy titulado del Máster en Finanzas de la Universidad Carlos III de Madrid y graduado en Administración y Dirección de Empresas por la Universidad de Alicante. Anteriormente trabajé en finanzas cuantitativas en el equipo de Financial Instrument Assurance de PwC.',
@@ -9,6 +9,11 @@
     interestsLabel: 'INTERESES DE INVESTIGACIÓN', interestOne: 'Valoración de activos', interestTwo: 'Predicción de rentabilidades', interestThree: 'Finanzas cuantitativas',
     researchLabel: 'INVESTIGACIÓN', researchTitle: 'Comprender los mercados financieros.', researchLead: 'Mi investigación doctoral se centra en la valoración de activos, con especial interés en la predicción de rentabilidades bursátiles.',
     topicOneTitle: 'Valoración de activos', topicOneText: 'El estudio del riesgo, las rentabilidades esperadas y la valoración de los activos financieros.', topicTwoTitle: 'Predicción de rentabilidades', topicTwoText: 'Explorar la información de los datos financieros para comprender el comportamiento de las rentabilidades bursátiles.', followResearch: 'Sigue mi trayectoria académica',
+    teachingLabel: 'DOCENCIA', teachingTitle: 'Matemática de las Operaciones Financieras', teachingRole: 'Asistente de docencia de Belén Nieto Domenech',
+    teachingModuleLabel: 'MOF · MÓDULO DE EJERCICIOS', teachingModule: 'Tema 5 · Rentas financieras',
+    teachingExerciseOne: 'Valoración de rentas financieras mediante actualización y capitalización de sucesiones de flujos de caja en régimen de interés compuesto.',
+    teachingExerciseTwo: 'Planteamiento y resolución de ecuaciones de equivalencia financiera, expresando valores actuales y finales como sumas de capitales fechados.',
+    teachingSyllabus: 'Guía docente · 2026–2027',
     projectsLabel: 'EJERCICIOS', projectsTitle: 'Ejercicios empíricos', projectsNote: 'Ejercicios de clase y de práctica', projectsLead: 'Una selección de ejercicios de clase y de práctica en finanzas cuantitativas.',
     dateFX: 'SEP 2024', dateLDA: 'ABR 2024', dateOptions: 'MAR 2024', dateMA: 'FEB 2024', datePortfolio: 'JUN 2023', tagTrading: 'ESTRATEGIAS DE INVERSIÓN', tagRisk: 'GESTIÓN DE RIESGOS', tagDerivatives: 'DERIVADOS', tagPortfolio: 'GESTIÓN DE CARTERAS',
     readDocument: 'Leer documento', fxSummary: 'Un ejercicio sobre estrategias de inversión en el mercado de divisas.',
