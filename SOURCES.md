@@ -51,3 +51,13 @@ Inventario consultado mediante la [API pública de GitHub](https://api.github.co
 - [Trading-Strategies](https://github.com/Pabloesparciacasado/Trading-Strategies): Jupyter Notebook. Su descripción pública no aporta información útil, por lo que no se reproduce.
 
 El perfil también contiene copias de repositorios de cursos y bibliotecas. No se presentan como proyectos originales de Pablo.
+
+## Investigación actual: actualización de noviembre de 2026
+
+Fuente facilitada por el autor: presentación «Net Option Gamma y la predictibilidad del mercado», Pablo Esparcia Casado, Universidad de Alicante, noviembre de 2026 (36 diapositivas). Se conserva una copia íntegra en `assets/net-option-gamma-2026-11.pdf`.
+
+- Se actualizan el resumen del perfil y el apartado de investigación en español e inglés, sin modificar la trayectoria, la docencia ni los ejercicios.
+- La pregunta y las medidas proceden de las diapositivas 1, 5–6, 21–22 y 28–30. El interés abierto público no identifica directamente posiciones firmadas de intermediarios; las medidas GEX y DEX se presentan como aproximaciones sujetas a supuestos.
+- Los resultados sobre rentabilidades se resumen a partir de las diapositivas 12, 23 y 25–27: no se afirma predictibilidad autónoma robusta frente a la media histórica. Las mejoras condicionadas al VIX se describen como resultados de contrastes individuales sin corrección por multiplicidad.
+- La evidencia sobre varianza de las diapositivas 31–34 se identifica expresamente como evidencia dentro de muestra, no como causalidad ni como validación predictiva fuera de muestra.
+- La validación fuera de muestra, los controles de volatilidad implícita por horizonte y el análisis por vencimientos permanecen como trabajo en curso (diapositiva 35). Las cifras exploratorias del MVP de la diapositiva 36, pendientes de reproducción, no se trasladan al resumen como resultados confirmados.

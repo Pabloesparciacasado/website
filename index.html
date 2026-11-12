@@ -5,9 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f7f6f2">
   <title>Pablo Esparcia Casado · Finance Research</title>
-  <meta name="description" content="Pablo Esparcia Casado, predoctoral researcher at the University of Alicante. Asset pricing, stock return predictability and quantitative finance.">
+  <meta name="description" content="Pablo Esparcia Casado, predoctoral researcher at the University of Alicante. Research on S&P 500 option positioning, equity risk premia and variance predictability.">
   <meta property="og:title" content="Pablo Esparcia Casado · Finance Research">
-  <meta property="og:description" content="Research, empirical exercises and academic background in asset pricing and quantitative finance.">
+  <meta property="og:description" content="Research on option positioning, equity risk premia and variance predictability, with empirical exercises in quantitative finance.">
   <meta property="og:type" content="website">
   <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="./styles.css">
@@ -41,7 +41,7 @@
         <p class="eyebrow"><span class="tiny-line"></span><span data-i18n="heroLabel">FINANCE RESEARCH · UNIVERSITY OF ALICANTE</span></p>
         <h1 id="hero-title">Pablo Esparcia<br><em>Casado</em><span class="accent">.</span></h1>
         <p class="hero-role" data-i18n="heroRole">Predoctoral Researcher in Finance</p>
-        <p class="hero-intro" data-i18n="heroIntro">I am a PhD student in Asset Pricing at the University of Alicante. My research interests focus on asset pricing and stock return predictability.</p>
+        <p class="hero-intro" data-i18n="heroIntro">I am a PhD student in Asset Pricing at the University of Alicante. My current research examines whether positioning in S&P 500 options contains information about the equity risk premium and future variance, with a focus on net gamma exposure and the persistence of its predictive content.</p>
         <p class="hero-secondary" data-i18n="heroSecondary">I hold a Master’s in Finance from Universidad Carlos III de Madrid and a degree in Business Administration from the University of Alicante. Previously, I worked in quantitative finance within PwC’s Financial Instrument Assurance team.</p>
         <div class="hero-actions">
           <a class="button button-primary" href="./cv.html"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M14 3H5v18h14V8Z"/><path d="M14 3v5h5M8 12h8M8 16h6"/></svg><span data-i18n="cvButton">Academic CV</span><span aria-hidden="true">↗</span></a>
@@ -60,10 +60,16 @@
       <div class="section-heading"><span class="section-number" aria-hidden="true">01</span><h2 id="research-title" data-i18n="researchLabel">Research</h2></div>
       <div class="section-content section-body">
         <p class="small-overline" data-i18n="researchStatus">RESEARCH IN PROGRESS</p>
-        <h3 class="research-project-title" data-i18n="researchProjectTitle">Option-based prediction of risk premia and variance</h3>
+        <h3 class="research-project-title" data-i18n="researchProjectTitle">Net Option Gamma and market predictability</h3>
         <div class="abstract-block">
           <p class="abstract-label" data-i18n="researchAbstractLabel">Abstract</p>
-          <p class="research-abstract" data-i18n="researchAbstract">This ongoing research examines the predictive content of option prices and option sensitivities (Greeks) for the equity risk premium and future return variance. The objective is to assess how information embedded in derivatives reflects time-varying risk and its potential value for forecasting conditional excess returns and variance.</p>
+          <p class="research-abstract" data-i18n="researchAbstract">This ongoing project studies whether publicly observable open interest in S&P 500 options contains information about the equity risk premium and future variance. Using nearly three decades of OptionMetrics data, I examine open-interest growth (GOI) and gamma- and delta-based exposure proxies (GEX and DEX), comparing their predictive content with standard return and variance benchmarks.</p>
+          <p class="research-abstract" data-i18n="researchFindings">Current results do not establish robust standalone out-of-sample return predictability relative to the historical mean. Some specifications conditional on the VIX show gains at longer horizons, although those individual tests are not adjusted for multiple comparisons. For variance, a higher net gamma ratio is associated with lower subsequent variance in-sample, after controlling for HAR dynamics and VIX-based implied variance. This association is strongest over one to five trading sessions and weakens as the horizon approaches a month.</p>
+          <p class="research-abstract" data-i18n="researchNextSteps">Ongoing work focuses on out-of-sample validation for variance, horizon-matched implied-volatility controls and the contribution of different option maturities. Results remain preliminary, and exposure measures inferred from unsigned open interest rely on assumptions about dealer positioning.</p>
+        </div>
+        <div class="research-materials">
+          <a class="project-document" href="./assets/net-option-gamma-2026-11.pdf" target="_blank" rel="noopener noreferrer"><span data-i18n="researchPresentation">Presentation (in Spanish)</span><span class="file-type">PDF ↗</span></a>
+          <span class="research-update"><span data-i18n="researchUpdatedLabel">Updated</span> <time datetime="2026-11" data-i18n="researchUpdatedDate">November 2026</time></span>
         </div>
       </div>
     </section>
